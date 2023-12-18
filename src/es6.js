@@ -12,7 +12,7 @@ function fioToName(fio) {
   if (middleName) {
     return `${firstName} ${lastName}`;
   } else {
-    return `${firstName} ${lastName}`.trim(); // исправление: добавлен trim()
+    return `${firstName} ${lastName}`.trim();
   }
 }
 
